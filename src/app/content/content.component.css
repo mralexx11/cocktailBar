@@ -1,0 +1,19 @@
+.example-container {
+  width: 99%;
+  height: 100%;
+  margin: 10px;
+
+}
+mat-drawer {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  border: 1px solid #D0D0D0;
+  width: 180px;
+}
+
+.example-margin {
+  margin: 30px 10px;
+
+}
+
