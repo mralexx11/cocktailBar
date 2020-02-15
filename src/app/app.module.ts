@@ -7,6 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContentComponent } from './content/content.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {GetDataService} from './services/get-data.service';
+import {MatCardModule} from '@angular/material/card';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,9 +21,11 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     BrowserModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatCardModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [GetDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .example-container {
   width: 99%;
   height: 100%;
-  margin: 10px;
+ margin-top: 7px;
 
 }
 mat-drawer {
@@ -9,11 +11,62 @@ mat-drawer {
   flex-flow: column;
   justify-content: space-around;
   border: 1px solid #D0D0D0;
+  border-top-color: white;
   width: 180px;
+  padding-top: 10px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #818181;
 }
 
 .example-margin {
   margin: 30px 10px;
 
 }
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 25px;
 
+  color: #818181;
+
+}
+/* mat card */
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+.example-card {
+  width: 150px;
+  background: rgb(51, 51, 51);
+  color: #fff;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.drink-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+mat-card-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+}
